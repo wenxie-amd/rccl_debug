@@ -1,6 +1,9 @@
 #!/bin/bash
 # Launcher for rccl_debug.py via torchrun.
 #
+# Container image: docker.io/rocm/primus:v26.2
+# (assumes you are running inside this container; see start_container.sh)
+#
 # Single node:
 #   ./run.sh                                  # all 8 GPUs, all ranks
 #   ./run.sh --ranks 0,3,4,7                  # forward args to rccl_debug.py
