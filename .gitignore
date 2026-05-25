@@ -1,3 +1,7 @@
 run_alloc.sh
 start_container.sh
 docs/design.md
+
+__pycache__/
+logs/
+output/
